@@ -4,9 +4,10 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 /// @title NEKO DEX Liquidity Pool
-/// @notice This contract facilitates a liquidity pool for the NEKO DEX, enabling altruistic users to contribute liquidity and make a meaningful impact on the lives of cats in need.
-/// Charitable organizations receive a 0.3% fee from all trades, which is dedicated to funding cat rescue operations.
-/// @dev This contract is built upon the Uniswap V2 Pair contract.
+/// @author gas-limit.eth
+/// @notice This contract establishes a liquidity pool for the NEKO DEX, allowing users to contribute liquidity and make a positive difference in the lives of cats requiring assistance.
+/// Charitable organizations benefit from a 0.3% fee imposed on all trades, which is utilized to finance cat rescue operations.
+/// @dev This contract is based on the Uniswap V2 Pair contract.
 
 /*
 ⠀⠀⠀⠀⠀⠀⠀⢀⡖⣛⡒⠤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠤⢖⣛⡳⡄⠀⠀⠀⠀⠀⠀⠀⠀
